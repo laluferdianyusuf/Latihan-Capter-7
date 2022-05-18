@@ -1,0 +1,30 @@
+.card {
+  width: 30%;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #282c34;
+  margin-top: 2%;
+}
+
+.card .container {
+  text-align: center;
+  line-height: 15px;
+  color: white;
+}
+
+.card .container .card-description {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+/* button */
+.button-action {
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #203257;
+  margin: 0 5px 20px 5px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
