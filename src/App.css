@@ -45,6 +45,11 @@
   width: 50%;
 }
 
+.App-count h3 {
+  margin-top: 0;
+  margin-bottom: 20%;
+}
+
 .App-calculator {
   width: 50%;
 }

@@ -4,16 +4,23 @@ import "./All.css";
 
 export default function Calc(props) {
   const { valueOne, valueTwo, setResult, action, text } = props;
+
   const multyple = () => {
-    setResult(valueOne * valueTwo);
+    const valueOneInt = parseInt(valueOne.current.value);
+    const valueTwoInt = parseInt(valueTwo.current.value);
+    setResult(valueOneInt * valueTwoInt);
   };
 
   const sum = () => {
-    setResult(Number(valueOne) + Number(valueTwo));
+    const valueOneInt = parseInt(valueOne.current.value);
+    const valueTwoInt = parseInt(valueTwo.current.value);
+    setResult(valueOneInt + valueTwoInt);
   };
 
   const minus = () => {
-    setResult(valueOne - valueTwo);
+    const valueOneInt = parseInt(valueOne.current.value);
+    const valueTwoInt = parseInt(valueTwo.current.value);
+    setResult(valueOneInt - valueTwoInt);
   };
 
   return (
